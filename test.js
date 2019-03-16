@@ -5,7 +5,7 @@ const getLoveTrianglesCount = require('./src/index');
 describe('Love triangles', () => {
   it('1', () => {
     const count = getLoveTrianglesCount([2, 3, 1]);
-    assert.equal(count, 1);
+    assert.equal(count , 1);
   });
 
   it('2', () => {
